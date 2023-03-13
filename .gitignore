@@ -1,0 +1,27 @@
+#mac
+**/.DS_Store
+
+#PhpStorm
+/backend/.idea/
+
+###> symfony/framework-bundle ###
+/backend/.env
+/backend/.env.local
+/backend/.env.local.php
+/backend/.env.*.local
+/backend/config/secrets/prod/prod.decrypt.private.php
+#/backend/public/bundles/
+/backend/var/
+/backend/vendor/
+###< symfony/framework-bundle ###
+
+###> lexik/jwt-authentication-bundle ###
+/config/jwt/*.pem
+###< lexik/jwt-authentication-bundle ###
+
+#Vue.js
+/frontend/.idea/
+/frontend/node_modules/
+
+# VSCode
+/frontend/.vscode
